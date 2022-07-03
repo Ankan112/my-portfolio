@@ -52,3 +52,12 @@ body {
     border-radius: 10px;
     font-size: 18px;
 }
+
+.second-section {
+    display: flex;
+    margin-top: 70px;
+}
+
+.second-right img {
+    width: 80%;
+}
