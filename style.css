@@ -56,8 +56,61 @@ body {
 .second-section {
     display: flex;
     margin-top: 70px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .second-right img {
     width: 80%;
+}
+
+.second-info {
+    width: 80%;
+}
+
+.third-section-head {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.exprience {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.third-section {
+    display: flex;
+}
+
+.third-section-info {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.third-section-info p {
+    text-align: justify;
+}
+
+.full-stack {
+    border-left: 7px solid tomato;
+}
+
+.mern-stack {
+    border-left: 7px solid blue;
+}
+
+footer {
+    margin: 70px 0px 30px 0px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 500;
 }
